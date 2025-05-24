@@ -1,0 +1,92 @@
+.container {
+  max-width: 1000px; /* Максимальна ширина контейнера */
+  margin: 0 auto; /* Центрування контейнера по горизонталі */
+  padding: 40px; /* Внутрішні відступи */
+  background-color: wheat; /* Білий фон контейнера */
+  border-radius: 60px; /* Закруглені кути контейнера */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Тінь для контрасту */
+  border: 2px solid #007bff; /* Синя обводка контейнера */
+}
+
+.input-field-1 {
+overflow: hidden;
+max-height: 400px;
+  text-align: left; /* Вирівнювання тексту зліва */
+  line-height: normal;
+    width: 100%; /* Зробити поле на всю ширину */
+    padding: 12px; /* Внутрішні відступи */
+    border: 2px solid #007bff; /* Синя обводка */
+    border-radius: 18px; /* Закруглені кути */
+    font-size: 16px; /* Розмір шрифту */
+    text-align: left; /* Вирівнювання тексту зліва */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Відступ знизу між групами полів */
+}
+/* main.css */
+.rounded-input {
+  border-radius: 1rem; /* Rounded corners for text areas */
+}
+
+.rounded-button {
+  border-radius: 1rem; /* Rounded corners for
+
+.rounded-file-display {
+border-radius: 1rem; /* For the span displaying the file name */
+background-color: #f8f9fa; /* Light background color for better visibility */
+padding: 0.5rem; /* Optional: Some padding for aesthetics */
+}
+.rounded-icon-label {
+border-radius: 0px; /* Make the icon label circular */
+background-color: #e9ecef; /* Optional: Light background to make it stand out */
+padding: 0.5rem; /* Add some padding for aesthetics */
+display: flex; /* Flexbox to center the icon */
+align-items: center; /* Center vertically */
+justify-content: center; /* Center horizontally */
+cursor: pointer; /* Change cursor to pointer for better UX */
+}
+.button-spacing {
+margin-top: 20px; /* Adjust this value as needed */
+}
+/* Відступ для заголовка 'Instruction' */
+.form-group label {
+  margin-top: 20px; /* Відступ зверху перед текстом 'Instruction' */
+  display: block; /* Перетвор overflow: hidden;ює заголовок у блочний елемент */
+}
+.btn {
+  padding: 12px 15px; /* Внутрішні відступи */
+  background-color: #007bff; /* Синій фон */
+  color: white; /* Білий колір тексту */
+  border: none; /* Без обводки */
+  border-radius: 18px; /* Закруглені кути */
+  font-size: 16px; /* Розмір шрифту */
+  cursor: pointer; /* Курсор при наведенні */
+  transition: background-color 0.3s, transform 0.2s; /* Анімація при наведенні */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Темніший фон при наведенні */
+  transform: translateY(-2px); /* Легка анімація при наведенні */
+}
+
+.btn:active {
+  transform: translateY(0); /* Скидання анімації при натисканні */
+}
+
+
+
+.input-field-2 {
+overflow: hidden;
+  text-align: left; /* Вирівнювання тексту зліва */
+  line-height: normal;
+    min-height: 100px; /* Задаємо мінімальну висоту */
+    width: 100%; /* Зробити поле на всю ширину */
+    padding: 12px; /* Внутрішні відступи */
+    border: 2px solid #007bff; /* Синя обводка */
+    border-radius: 18px; /* Закруглені кути */
+    font-size: 16px; /* Розмір шрифту */
+    text-align: left; /* Вирівнювання тексту зліва */
+    max-height: 200px;      
+}
+

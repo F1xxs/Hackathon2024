@@ -1,0 +1,8 @@
+openai
+flask
+flask-cors
+flask-sqlalchemy
+python-dotenv
+pydantic-settings
+aspose-words
+python-docx
